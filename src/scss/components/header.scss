@@ -1,0 +1,44 @@
+@import '../variables.scss';
+
+.header{
+    width: $maxWidhtContainer;
+    margin: auto;
+    display: flex;
+    height: 120px;
+    
+    &__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    &__actions{
+        display: flex;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+
+        ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                padding: 0px 20px;
+                font-size: 20px;
+                cursor: pointer;
+                transition: all $duration ease;
+
+                &:hover{
+                    color: $activeColor;
+                }
+            }
+        }
+    }
+}

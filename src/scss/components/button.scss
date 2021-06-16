@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.button{
+    display: inline-block;
+    cursor: pointer;
+    min-width: 220px;
+    min-height: 70px;  
+    border: 1px solid transparent;
+    text-align: center;
+
+    span{
+        font-size: 20px;
+    }
+
+    &__logo{
+        color: #fff;
+        background-color: rgba($color: #000000, $alpha: 0.0);
+        border: 3px solid #fff;
+        transition: all $duration ease;
+
+        &:hover{
+            background-color: $activeColor;
+            border: 3px solid $activeColor;
+        }
+
+        &:active{
+            transform: translateY(5px);
+        }
+    }
+}
