@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.price{
+    width: 100%;
+    height: 1142px;
+    background-color: #f0f1f1;
+
+    &__title{
+        height: 157px;
+        padding-top: 126px;
+        width: 100%;
+        text-align: center;
+        
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    &__descr{
+        height: 70px;
+        width: 630px;
+        margin: auto;
+        text-align: center;
+        padding: 41px;
+    }
+
+    &__cards{
+        height: 792px;
+        width: $maxWidhtContainer;
+        margin: auto;
+        padding-top: 124px;
+    }
+}

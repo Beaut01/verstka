@@ -22,7 +22,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>
@@ -38,7 +38,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>
@@ -54,7 +54,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>
@@ -72,7 +72,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>
@@ -88,7 +88,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>
@@ -104,7 +104,7 @@ export const Services = () => {
                             <p>At vero eos et accusamus et iusto odio dignissinos ducimus qui blanditiis presentium voluptatum itti atque corrupri quos</p>
                         </div>
                         <div className="cardS__button">
-                            <button className='button button__services'>
+                            <button className='button button__outline'>
                                 <span>READ MORE</span>
                             </button>
                         </div>

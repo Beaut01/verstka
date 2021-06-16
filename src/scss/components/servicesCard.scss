@@ -59,7 +59,7 @@
             button{
                 color: #fff;
                 background-color: $activeColor;
-                border: 3px solid #fff;
+                border: 3px solid $activeColor;
             }
         }
     }
