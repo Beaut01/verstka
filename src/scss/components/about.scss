@@ -1,0 +1,60 @@
+@import '../variables.scss';
+
+.about{
+    display: block;
+    width: 100%;
+    height: 670px;
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        padding-top: 125px;
+
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    &__descr{
+        display: block;
+        width: 630px;
+        height: 162px;
+        margin: auto;
+    }
+
+    &__cards{
+        display: flex;
+        width: $maxWidhtContainer;
+        margin: auto;
+
+        &-card{
+            display: block;
+            width: 33.3%;
+
+            &_image{
+                display: block;
+                width: 170px;
+                height: 61px;
+                margin: auto;
+            }
+
+            &_title{
+                display: block;
+                margin-top: 41px;
+                width: 170px;
+                height: 42px;
+                margin: auto;
+                text-align: center;
+            }
+
+            &_descr{
+                display: block;
+                width: 250px;
+                height: 59px;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+}

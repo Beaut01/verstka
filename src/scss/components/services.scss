@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.services{
+    width: 100%;
+    height: 1414px;
+    background-color: $backgroundblue;
+
+    &__title{
+        padding-top: 174px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    &__descr{
+        padding-top: 5px;
+        width: 630px;
+        display: block;
+        height: 151px;
+        margin: auto;
+    }
+
+    &__cards{
+        display: block;
+        height: 906px;
+        width: $maxWidhtContainer;
+        margin: auto;
+    }
+}
