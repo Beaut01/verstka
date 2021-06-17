@@ -43,5 +43,26 @@
             background-color: $activeColor;
             border: 3px solid $activeColor;
         }
+
+        &:active{
+            transform: translateY(5px);
+        }
+    }
+
+    &__rounded{
+        color: $activeColor;
+        background-color: #f0f1f1;
+        border-radius: 15px;
+        min-height: 50px;
+        min-width: 50px;
+
+        &:hover{
+            color: #fff;
+            background-color: #3949ab;
+        }
+
+        svg{
+            font-size: 20px;
+        }
     }
 }

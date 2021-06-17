@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMobileAlt} from '@fortawesome/free-solid-svg-icons'
+ 
 export const Services = () => {
     return(
         <div className="services">
@@ -13,7 +15,7 @@ export const Services = () => {
                 <div className="d-flex">
                     <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>
@@ -29,7 +31,7 @@ export const Services = () => {
                     </div>
                     <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>
@@ -45,7 +47,7 @@ export const Services = () => {
                     </div>
                     <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>
@@ -63,7 +65,7 @@ export const Services = () => {
                 <div className="d-flex" style={{marginTop: '33px'}}>
                 <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>
@@ -79,7 +81,7 @@ export const Services = () => {
                     </div>
                     <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>
@@ -95,7 +97,7 @@ export const Services = () => {
                     </div>
                     <div className="cardS">
                         <div className="cardS__image">
-                            <img src="/" alt="mobile" />
+                            <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
                         <div className="cardS__title">
                             <p>Research</p>

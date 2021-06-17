@@ -1,0 +1,52 @@
+@import '../variables.scss';
+
+.blog{
+    width: 100%;
+    height: 1869px;
+    background-color: #e4fdf9;
+    padding-top: 125px;
+
+    &__title{
+        height: 100px;
+        width: 630px;
+        text-align: center;
+        margin: auto;
+
+        h4{
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        p{
+            margin-top: auto;
+            margin-bottom: 0;
+        }
+    }
+
+    &__cards{
+        display: block;
+        padding-top: 124px;
+        height: 1327px;
+        width: $maxWidhtContainer;
+    }
+}
+
+.cardB{
+    display: flex;
+    justify-content: center;
+
+    &__image{
+        display: block;
+        img{
+            width: 570px;
+            height: 400px;
+        }
+    }
+
+    &__info{
+        display: block;
+        height: 400px;
+        width: 100%;
+    }
+}
