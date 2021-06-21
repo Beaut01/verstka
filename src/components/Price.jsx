@@ -11,7 +11,7 @@ export const Price = () => {
             </div>
             <div className="price__cards">
                 <div className="d-flex">
-                    <div className="cardP">
+                    <div className="cardP" style={{marginRight: '30px'}}>
                         <div className="cardP__blue">
                             <div className="cardP__blue-title">
                                 <p>Free Trail</p>
@@ -38,7 +38,7 @@ export const Price = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="cardP">
+                    <div className="cardP" style={{marginRight: '30px'}}>
                         <div className="cardP__blue">
                             <div className="cardP__blue-title">
                                 <p>Free Trail</p>

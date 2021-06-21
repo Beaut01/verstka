@@ -28,7 +28,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 970px;
+        width: 970/1400 * 100%;
         margin: auto;
     }
 
@@ -46,7 +46,7 @@
 
     &__values{
         display: flex;
-        width: 970px;
+        width: 970/1400 * 100%;
         justify-content: space-around;
         align-items: flex-start;
         margin: auto;

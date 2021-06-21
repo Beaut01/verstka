@@ -2,9 +2,8 @@
 
 .cardP{
     height: 668px;
-    width: 370px;
+    width: 370/1170 * 100%;
     background-color: #fff;
-    margin-right: 30px;
     transition: all $duration ease;
 
     &__blue{
@@ -66,6 +65,10 @@
         justify-content: center;
         align-items: center;
         padding-top: 50px;
+
+        button{
+            width: 220/370 * 100%;
+        }
     }
 
     &:hover{

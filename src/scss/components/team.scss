@@ -32,24 +32,23 @@
 
 .cardT{
     display: block;
-    width: 370px;
+    width: 370/1170 * 100%;
     height: 486px;
-    margin-right: 30px;
 
     &__image{
-        width: 370px;
+        width: 100%;
         height: 320px;
         border-radius: 15px;
 
         img{
             border-radius: 15px;
             height: 320px;
-            width: 370px;
+            width: 100%;
         }
     }
 
     &__info{
-        width: 370px;
+        width: 100%;
         height: 266px;
 
         &-name{
@@ -57,6 +56,7 @@
             margin-top: 20px;
             p{
                 font-size: 20px;
+                font-weight: bold;
             }
         }
 
@@ -70,13 +70,9 @@
 
         &-social{
             display: flex;
+            width: 100%;
             justify-content: center;
             align-self: flex-end;
-            margin-top: auto;
-
-            button{
-                margin-right: 30px;
-            }
         }
     }
 

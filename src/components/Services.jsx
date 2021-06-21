@@ -12,8 +12,8 @@ export const Services = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
             <div className="services__cards">
-                <div className="d-flex">
-                    <div className="cardS">
+                <div className="d-flex justify-content-center">
+                    <div className="cardS" style={{marginRight: '2.5%'}}>
                         <div className="cardS__image">
                             <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
@@ -29,7 +29,7 @@ export const Services = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="cardS">
+                    <div className="cardS" style={{marginRight: '2.5%'}}>
                         <div className="cardS__image">
                             <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
@@ -62,8 +62,8 @@ export const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex" style={{marginTop: '33px'}}>
-                <div className="cardS">
+                <div className="d-flex justify-content-center" style={{marginTop: '33px'}}>
+                <div className="cardS" style={{marginRight: '2.5%'}}>
                         <div className="cardS__image">
                             <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
@@ -79,7 +79,7 @@ export const Services = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="cardS">
+                    <div className="cardS" style={{marginRight: '2.5%'}}>
                         <div className="cardS__image">
                             <FontAwesomeIcon icon={faMobileAlt} style={{width: '60px', height: '60px'}}/>
                         </div>
