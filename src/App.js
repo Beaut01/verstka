@@ -8,6 +8,7 @@ import { Team } from './components/Team'
 import { Works } from './components/Works'
 import { Blog } from './components/Blog'
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }
