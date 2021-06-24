@@ -21,6 +21,10 @@
         width: 630/1400 * 100%;
         height: 162px;
         margin: auto;
+
+        p{
+            margin: 0;
+        }
     }
 
     &__cards{
@@ -60,6 +64,10 @@
                 height: 59px;
                 text-align: center;
                 margin: auto;
+
+                p{
+                    margin: 0;
+                }
             }
         }
     }

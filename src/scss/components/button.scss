@@ -29,6 +29,8 @@
 
         &:active{
             transform: translateY(5px);
+            color: darken($color: #fff, $amount: 12%);
+            background-color: darken($color: $activeColor, $amount: 12%);
         }
     }
 
@@ -51,6 +53,8 @@
 
         &:active{
             transform: translateY(5px);
+            color: darken($color: #fff, $amount: 12%);
+            background-color: darken($color: $activeColor, $amount: 12%);
         }
     }
 
@@ -58,8 +62,9 @@
         color: $activeColor;
         background-color: #f0f1f1;
         border-radius: 15px;
-        min-height: 50px;
-        min-width: 50px;
+        height: 50px;
+        width: 50/370 * 100%;
+        padding: 0;
 
         &:hover{
             color: #fff;
@@ -68,6 +73,12 @@
 
         svg{
             font-size: 20px;
+        }
+
+        &:active{
+            transform: translateY(5px);
+            color: darken($color: #fff, $amount: 12%);
+            background-color: darken($color: #3949ab, $amount: 12%);
         }
     }
 
@@ -78,6 +89,7 @@
 
         &:active{
             transform: translateY(5px);
+            background-color: darken($color: #fff, $amount: 20%);
         }
     }
 }
